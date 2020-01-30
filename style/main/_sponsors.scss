@@ -1,0 +1,22 @@
+
+.sponsors-container {
+    .sponsors-header {
+        margin-bottom: 6rem;
+    }
+    .sponsors {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(auto, 32rem));
+        grid-gap: 3rem;
+        justify-content: center;
+        align-items: center;
+        margin: 0 2rem;
+    }
+}
+
+@media (min-width: 40rem) {
+    .sponsors-container {
+        .sponsors {
+            grid-template-columns: repeat(2, minmax(auto, 32rem));
+        }
+    }
+}

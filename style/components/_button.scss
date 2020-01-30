@@ -1,0 +1,17 @@
+.btn {
+    border: none;
+    background: rgb(88, 50, 214);
+    color: white;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    justify-self: center;
+    &:hover {
+        cursor: pointer;
+        transform: translateY(-0.2rem);
+        transition: all 0.1s;
+        box-shadow: 0 20px 30px -11px rgba(31, 35, 65, 0.37);
+        background: rgb(148, 65, 225);
+    }
+}

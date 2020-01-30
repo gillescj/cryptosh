@@ -1,0 +1,79 @@
+.price-cards-container {
+    margin: 3rem 0;
+    //   background: linear-gradient(to right bottom, rgb(12, 48, 71) 10%, rgb(49, 42, 71) 60%);
+    background: linear-gradient(to right, #9d50bb 0%, #6e48aa 100%);
+    transform: skew(0deg, -5deg);
+    padding: 5rem 0;
+    .price-cards-container-unskewed {
+        transform: skew(0deg, 5deg) translateY(-1rem);
+        .price-cards-header {
+            margin-bottom: 6rem;
+            color: white;
+        }
+        .price-cards {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns: repeat(1, minmax(10rem, 18rem));
+            grid-auto-rows: 30rem;
+            justify-content: center;
+            .price-card {
+                display: grid;
+                text-align: center;
+                padding: 2rem;
+                border-radius: 1rem;
+                box-shadow: 0 6px 30px rgba(31, 35, 65, 0.3);
+                // background: linear-gradient(to right bottom, rgb(0, 0, 0) 10%, rgb(19, 18, 20) 100%);
+                // background: rgb(81, 50, 221);
+                background: white;
+                // color: white;
+
+                &:nth-child(2) {
+                    //   background: linear-gradient(to right bottom, rgb(81, 50, 221) 30%, rgb(174, 92, 241) 100%);
+                    background: rgb(81, 50, 221);
+                    margin-top: 0;
+                    color: white;
+                    .price-card-btn {
+                        background-color: rgba(255, 255, 255, 0.85);
+                        color: black;
+                        &:hover {
+                            background-color: rgba(255, 255, 255, 1);
+                        }
+                    }
+                }
+                .price-card-price {
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                }
+                .price-card-name {
+                    font-style: oblique;
+                    font-weight: bold;
+                }
+                .price-card-btn {
+                    align-self: end;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 45rem) {
+    .price-cards-container {
+        .price-cards-container-unskewed {
+            .price-cards {
+                grid-template-columns: repeat(3, minmax(8rem, 20rem));
+                grid-auto-rows: 30rem 10rem;
+                padding: 0 2rem;
+                .price-card {
+                    &:hover {
+                        // border: 2px solid rgba(140, 0, 255, 0.3);
+                        transform: translateY(-0.5rem);
+                        transition: all 0.5s;
+                    }
+                    &:nth-child(2) {
+                        margin-top: -2rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.intro-container {
+    background: linear-gradient(
+            to right bottom,
+            rgba(12, 48, 71, 0.9),
+            rgba(53, 49, 65, 0.8)
+        ),
+        url("../img/coding.jpg");
+    background-size: cover;
+    .intro {
+        display: grid;
+        color: white;
+        text-align: center;
+        padding: 12rem 2rem;
+        .intro-top {
+            padding: 1rem 0;
+            font-weight: normal;
+            font-size: 3rem;
+            line-height: 1.1;
+        }
+        .intro-sub {
+            padding: 3rem 0;
+        }
+        .intro-available {
+            padding-top: 2rem;
+            padding-bottom: 4rem;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    scroll-behavior: smooth;
+}
+
+// body {
+//   overflow-x: hidden;
+// }
+
+img {
+    max-width: 100%;
+}
+
+svg {
+    width: fit-content;
+    height: fit-content;
+}
+
+.container {
+    display: grid;
+    // grid-template-columns: minmax(auto, 90rem);
+    grid-template-columns: 100%;
+    justify-content: center;
+}
+
+main {
+    display: grid;
+    grid-gap: 5rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+h3 {
+    padding: 1rem 0;
+}
