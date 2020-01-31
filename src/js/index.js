@@ -1,3 +1,4 @@
+import '../style/style.scss'
 import { elements } from "./views/base.js";
 
 // Events
