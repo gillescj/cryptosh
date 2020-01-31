@@ -7,15 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Cryptosh</title>
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
-    <!-- <link rel="stylesheet" href="./style/style.css" /> -->
-    <!-- <script type="module" src="./js/index.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <script type="module" src="./js/index.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <header class="main-header-container">
+        <header class="main-header-container animated slideInDown">
             <div class="main-header">
-                <a href="./cryptosh" class="brand">
+                <a href="#" class="brand">
                     <svg fill="#9441e1" width="40" height="40" viewBox="0 0 1000 1000"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -51,7 +54,7 @@
         </header>
         <main>
             <section class="intro-container">
-                <div class="intro">
+                <div class="intro animated fadeIn">
                     <h1 class="intro-top">
                         Cryptosh : A new way to do something
                     </h1>
@@ -69,7 +72,7 @@
                 <header class="features-header">
                     <h1>Why Cryptosh?</h1>
                 </header>
-                <section class="feature-item">
+                <section class="feature-item" data-aos="fade-left">
                     <div class="feature-item-text">
                         <header class="feature-item-text-header">
                             Lorem, ipsum dolor.
@@ -86,7 +89,7 @@
                         <img src="./img/notebook.jpg" alt="Notebook" />
                     </div>
                 </section>
-                <section class="feature-item">
+                <section class="feature-item" data-aos="fade-right">
                     <div class="feature-item-text">
                         <header class="feature-item-text-header">
                             Lorem ipsum dolor sit amet.
@@ -100,7 +103,7 @@
                         <img src="./img/computer-cafe.jpg" alt="Computer Cafe" />
                     </div>
                 </section>
-                <section class="feature-item">
+                <section class="feature-item" data-aos="fade-left">
                     <div class="feature-item-text">
                         <header class="feature-item-text-header">
                             Lorem ipsum dolor sit.
@@ -260,6 +263,7 @@
             </section>
         </footer>
     </div>
+
 </body>
 
 </html>
