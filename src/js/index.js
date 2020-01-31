@@ -24,6 +24,6 @@ elements.sideNavOption.forEach(option => {
 
 AOS.init({
     once: true,
-    duration: 1000,
-    delay: 200
+    duration: 2000,
+    delay: 0
 });
