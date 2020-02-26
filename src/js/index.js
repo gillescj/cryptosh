@@ -1,10 +1,7 @@
-import '../style/style.scss'
-import { elements } from "./views/base.js";
+import '../style/style.scss';
+import { elements } from './views/base.js';
 
 import AOS from 'aos';
-// import '../style/aos.css';
-// ..
-
 
 // Events
 
@@ -24,6 +21,6 @@ elements.sideNavOption.forEach(option => {
 
 AOS.init({
     once: true,
-    duration: 2000,
+    duration: 1000,
     delay: 0
 });

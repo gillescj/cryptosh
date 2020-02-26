@@ -4,13 +4,14 @@
             rgba(12, 48, 71, 0.9),
             rgba(53, 49, 65, 0.8)
         ),
-        url("../img/coding.jpg");
+        url('../img/coding.jpg');
     background-size: cover;
     .intro {
         display: grid;
         color: white;
         text-align: center;
         padding: 12rem 2rem;
+        padding-top: 10rem;
         .intro-top {
             padding: 1rem 0;
             font-weight: normal;
@@ -23,6 +24,17 @@
         .intro-available {
             padding-top: 2rem;
             padding-bottom: 4rem;
+        }
+    }
+}
+
+@media screen and (max-width: 40rem) {
+    .intro-container {
+        .intro {
+            padding-top: 6rem;
+            .intro-top {
+                font-size: 2.5rem;
+            }
         }
     }
 }
