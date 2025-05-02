@@ -1,8 +1,9 @@
 # Cryptosh
 
-Front page for fake application. Using Sass and JavaScript.
+> [!NOTE]  
+> This project is archived
 
-[Live Site Here](https://cryptosh.colingillespie.dev/)
+Front page for fake application. Using Sass and JavaScript.
 
 ![Cryptosh Desktop](https://github.com/gillescj/files/blob/master/cryptosh-screenshot.png?raw=true)
 
